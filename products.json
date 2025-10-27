@@ -1,0 +1,54 @@
+[
+  {
+    "name": "quinoa salad",
+    "price": 25,
+    "company": "marcos",
+    "rating": 4,
+    "images": [
+      {
+        "url": "/images/quinoa-salad.jpg",
+        "filename": "quinoa-salad.jpg",
+        "alt": "Quinoa salad bowl"
+      }
+    ]
+  },
+  {
+    "name": "kale smoothie",
+    "price": 109,
+    "company": "liddy",
+    "rating": 5,
+    "images": [
+      {
+        "url": "/images/green-kale-smoothie.jpg",
+        "filename": "green-kale-smoothie.jpg",
+        "alt": "Green kale smoothie"
+      }
+    ]
+  },
+  {
+    "name": "avocado toast",
+    "price": 309,
+    "company": "liddy",
+    "rating": 4.9,
+    "images": [
+      {
+        "url": "/images/avocado-toast.jpg",
+        "filename": "avocado-toast.jpg",
+        "alt": "Avocado toast with seeds"
+      }
+    ]
+  },
+  {
+    "name": "almond butter",
+    "price": 125,
+    "company": "marcos",
+    "rating": 4.8,
+    "images": [
+      {
+        "url": "/images/almond-butter.jpg",
+        "filename": "almond-butter.jpg",
+        "alt": "Jar of almond butter"
+      }
+    ]
+  }
+]

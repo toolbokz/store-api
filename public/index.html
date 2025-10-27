@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Store API — Frontend</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Store — Product Browser</h1>
+        <nav>API: <code>/api/v1/products</code></nav>
+    </header>
+
+    <main class="container">
+        <section class="controls" aria-label="controls">
+            <div>
+                <label for="search">Search</label>
+                <input id="search" type="search" placeholder="Search by name..." />
+            </div>
+
+            <div>
+                <label for="company">Company</label>
+                <select id="company">
+                    <option value="all">All</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="sort">Sort</label>
+                <select id="sort">
+                    <option value="-createdAt">Newest</option>
+                    <option value="name">Name A–Z</option>
+                    <option value="-price">Price High→Low</option>
+                    <option value="price">Price Low→High</option>
+                </select>
+            </div>
+
+            <div class="checkbox-row">
+                <input id="shipping" type="checkbox" />
+                <label for="shipping">Free shipping only</label>
+            </div>
+
+            <div class="actions">
+                <button id="apply" class="small">Apply</button>
+                <button id="reset" class="small btn-reset">Reset</button>
+            </div>
+        </section>
+
+        <section id="status" class="loading">Loading products…</section>
+        <section id="products" class="products" aria-live="polite"></section>
+        <nav id="pagination" class="pagination" aria-label="Pagination" aria-live="polite"></nav>
+
+        <footer>
+            Try typing in the search box, choose a company, or toggle free shipping. If products fail to load, check
+            that your server is running and connected to MongoDB.
+        </footer>
+    </main>
+
+    <script type="module" src="/js/main.js"></script>
+</body>
+
+</html>
+</body>
+
+</html>
